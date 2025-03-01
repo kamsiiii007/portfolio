@@ -2,51 +2,198 @@
 
    
     
-    
-    
     header{
-        
-        height: 150px;
-        padding: 10px 15px;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 25px;
+      
+        padding: 10px 20px;
+       
     }
-   
+    
+    
     header nav{
         
-        gap: 15px;
-       
-       
+        gap: 10px;
     }
     
     header nav a{
-       font-size: 10px;
-    }
-    
-   
-    main{
-        padding: 30px 20px;
-        height: calc(100vh - 180px);
+        color: white;
+        font-size: 10px;
     }
     
     
-    main section{
-        width: 70%;
+    
+    .home{
+        background-color: rgb(3, 3, 64);
+        background-size: cover;
+        width: 100%;
+        height: calc(100% - 70px);
+        background-position: center center;
+    }
+    
+    .home span{
+        padding: 80px 20px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .home span div{
        
+        background-color: rgb(3, 3, 64);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 30px 100px;
     }
     
-    main section h1{
-        font-size: 25px;
-       
+    .home img{
+        width: 170px;
+        height: 170px;
+        border-radius: 50%;
+        border: 4px solid white;
+        object-fit: cover;
     }
     
-    main section h1 b{
-        color: red;
+    .home b{
+        color: white;
+        margin-top: 8px;
+    }
+    
+    .home p{
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 20px;
+        font-weight: 200;
+    }
+    
+    .home a{
+        margin-right: 10px;
+        padding: 4px 10px;
+        font-size: 15px;
+        font-weight: 300;
+        cursor: pointer;
+        transition: 1s;
+        color: white;
+        border: 1px solid white;
+    }
+    
+    .home a:hover{
+        background-color: white;
+        color: black;
+    }
+    
+    .recent-projects{
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 50px 0;
+        gap: 50px;
+    }
+    
+    .recent-projects h2{
+        font-size: 45px;
+        font-weight: 100;
+    }
+    
+    .recent-projects div{
+        width: 100%;
+        padding: 10px 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 60px;
+        background-color: white;
     }
     
     
-  
+    
+    .people{
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 20px;
+        gap: 50px;
+        background-color: whitesmoke;
+    }
+    
+    .people h3{
+        font-size: 35px;
+        font-weight: 100;
+    }
+    
+    .people span{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 5px;
+    }
+    
+    .people div{
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 50px;
+        padding: 25px 50px;
+    }
+    
+    .people div article{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        gap: 20px;
+        padding: 30px 2px;
+    }
+    
+    .people article p{
+        font-size: 15px;
+        padding: 0 30px;
+        font-weight: 100;
+    }
+    
+    .people img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50px;
+        height: 50px;
+        border: 2px solid orange;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+    
+    .people b{
+        color: rgb(7, 7, 120);
+        font-size: 15px;
+    }
+    
+    footer{
+        width: 100%;
+        padding: 15px 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+    }
+    
+    footer p{
+        font-size: 10px;
+        font-weight: 100;
+    }
 
 }
